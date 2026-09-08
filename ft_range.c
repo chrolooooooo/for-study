@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int     *ft_range(int min, int max)
+int	*ft_range(int min, int max)
 {
 	int	i;
 	int	size;
@@ -22,8 +22,8 @@ int     *ft_range(int min, int max)
 	}
 	return (str);
 }
-
-int	main()
+/*
+int	main(void)
 {
 	int	*str;
 	int	i = 0;
@@ -38,4 +38,4 @@ int	main()
 	}
 	free(str);
 	return (0);
-}
+}*/

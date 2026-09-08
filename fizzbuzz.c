@@ -23,7 +23,7 @@ int	main(void)
 				c = i % 10 + 48;
 				write(1, &c, 1);
 			}
-			else 
+			else
 			{
 				c = i + 48;
 				write (1, &c, 1);
